@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Open Loo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="text-center">
+        <h1>Open Loo</h1>
+        <h5>Part of OpenAhmedabad Project</h5>
+    </div>
+    <form style="margin: 0 16px;" action="" onsubmit="submitData()">
+        <div class="form-group">
+            <label for="inputLatitude" class="control-label">Latitude</label>
+            <input type="text" class="form-control" id="inputLatitude" placeholder="Manually enter latitude here">
+        </div>
+        <div class="form-group">
+            <label for="inputLongitude" class="control-label">Longitude</label>
+            <input type="text" class="form-control" id="inputLongitude" placeholder="Manually enter longitude here">
+        </div>
+        <div class="form-group">
+            <label for="inputName" class="control-label">Name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Name of the loo (if any)">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress" class="control-label">Address<span style="color: red">*</span></label>
+            <textarea class="form-control" id="inputAddress" rows="3" placeholder="Where is it ?" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="inputFees" class="control-label">Fees<span style="color: red">*</span></label>
+            <div class="input-group">
+                <div class="input-group-addon">&#8377;</div>
+                <input type="number" class="form-control" id="inputFees" placeholder="Amount (0 if free)" required>
+                <div class="input-group-addon">.00</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputRating" class="control-label">Cleanliness</label>
+            <div class="input-group">
+                <input type="number" class="form-control" id="inputRating" placeholder="Rate from 0 to 9">
+                <div class="input-group-addon">Ratings from 0 to 9</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Submit</button>
+            </div>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
