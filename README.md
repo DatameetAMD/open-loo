@@ -1,14 +1,14 @@
-# Open Ahmedabad
+# Open Loo
 
-The idea behind the initiative is to maintain public data and make it available to different communities to build some amazing tools out of it.
+This project is part of Open Ahmedabad platform. It contains data collector form for all the loo points and their basic details in Ahmedabad, India.
 
-The projects under this initiative are tracked [here](https://github.com/DatameetAMD/open-ahmedabad-web/issues/). Kindly follow the thread for any updates.
+The project is tracked [here](https://github.com/DatameetAMD/open-ahmedabad-web/issues/3). Kindly follow the thread for any updates regarding this project.
 
 ## Contributing
 
-It is an open source communitiy. Anyone can contribute here. To be an official collaborator drop an email to [ndkcha](mailto:ndkcha@gmail.com?subject=Regarding contribution in Open Ahmedabad) or [jimishio](mailto:jimishparekh123@gmail.com?subject=Regarding contribution in Open Ahmedabad). You can always fork the repository to resolve issues or make new contribution and submit pull request to merge it.
+It is an open source project. Anyone can contribute to the project. To be an official collaborator drop an email to [ndkcha](mailto:ndkcha@gmail.com?subject=Regarding contribution in Open Loo Project) or [jimishio](mailto:jimishparekh123@gmail.com?subject=Regarding contribution in Open Loo Project). You can always fork the repository to resolve issues or make new contribution and submit pull request to merge it with main project.
 
-We considered starting the projects using simple HTML5 webpages and a light usage of bootstrap framework. Do consult us before you start contributing for appropriate assignments of tasks and better understanding of the architecture.
+We considered starting this project using simple HTML5 webpages and a light usage of bootstrap framework. Do consult us before you start contributing for appropriate assignments of tasks and better understanding of the architecture.
 
 ## Further help
 
